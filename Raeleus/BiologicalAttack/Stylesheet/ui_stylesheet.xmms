@@ -1,0 +1,89 @@
+<Stylesheet TextureRegionAtlas="ui_stylesheet.xmat">
+  <Fonts>
+    <Font Id="font" File="font-export.fnt" />
+    <Font Id="title" File="font-title-export.fnt" />
+  </Fonts>
+  <LabelStyles>
+    <LabelStyle TextColor="Black" Font="font-export.fnt" />
+    <LabelStyle TextColor="Black" Font="font-title-export.fnt" Id="title" />
+    <LabelStyle TextColor="Yellow" Font="font-title-export.fnt" Id="title-bg" />
+  </LabelStyles>
+  <TextBoxStyles>
+    <TextBoxStyle TextColor="Black" Font="font-export.fnt" Cursor="split-pane" Selection="white/#939393FF" Background="textfield/Black" />
+  </TextBoxStyles>
+  <ButtonStyles>
+    <ImageButtonStyle PressedBackground="icon-biohazard/#E6E6E6FF" Width="79" Height="73" Background="icon-biohazard/Black" OverBackground="icon-biohazard/#939393FF" />
+    <ImageButtonStyle PressedBackground="icon-warning/#E6E6E6FF" Id="warning" Width="53" Height="45" Background="icon-warning/Black" OverBackground="icon-warning/#939393FF" />
+    <ImageButtonStyle PressedBackground="icon-poison/#E6E6E6FF" Id="poison" Width="71" Height="65" Background="icon-poison/Black" OverBackground="icon-poison/#939393FF" />
+    <ImageButtonStyle PressedBackground="icon-fire/#E6E6E6FF" Id="fire" Width="58" Height="76" Background="icon-fire/Black" OverBackground="icon-fire/#939393FF" />
+    <ImageButtonStyle PressedBackground="icon-gas-mask/#E6E6E6FF" Id="gasmask" Width="56" Height="64" Background="icon-gas-mask/Black" OverBackground="icon-gas-mask/#939393FF" />
+    <ImageButtonStyle PressedBackground="icon-electricity/#E6E6E6FF" Id="electricity" Width="44" Height="74" Background="icon-electricity/Black" OverBackground="icon-electricity/#939393FF" />
+    <ImageButtonStyle PressedBackground="icon-radiation/#E6E6E6FF" Id="radiation" Width="71" Height="65" Background="icon-radiation/Black" OverBackground="icon-radiation/#939393FF" />
+    <ImageButtonStyle PressedBackground="icon-laser/#E6E6E6FF" Id="laser" Width="65" Height="48" Background="icon-laser/Black" OverBackground="icon-laser/#939393FF" />
+  </ButtonStyles>
+  <CheckBoxStyles>
+    <CheckBoxStyle>
+      <ImageStyle PressedImage="checkbox/Black" Image="checkbox-off/Black" />
+    </CheckBoxStyle>
+  </CheckBoxStyles>
+  <RadioButtonStyles>
+    <RadioButtonStyle>
+      <ImageStyle PressedImage="radio/Yellow" Image="radio-off/Yellow" />
+    </RadioButtonStyle>
+  </RadioButtonStyles>
+  <HorizontalSliderStyles>
+    <SliderStyle Background="white/#FFFFFF00">
+      <KnobStyle>
+        <ImageStyle Image="slider-knob/Black" />
+      </KnobStyle>
+    </SliderStyle>
+  </HorizontalSliderStyles>
+  <VerticalSliderStyles>
+    <SliderStyle Background="white/#FFFFFF00">
+      <KnobStyle>
+        <ImageStyle Image="slider-knob/Black" />
+      </KnobStyle>
+    </SliderStyle>
+  </VerticalSliderStyles>
+  <HorizontalProgressBarStyles>
+    <ProgressBarStyle Background="progress-bar" />
+  </HorizontalProgressBarStyles>
+  <VerticalProgressBarStyles>
+    <ProgressBarStyle Background="progress-bar" />
+  </VerticalProgressBarStyles>
+  <ComboBoxStyles>
+    <ComboBoxStyle>
+      <ListBoxStyle>
+        <ListItemStyle ImageTextSpacing="0" PressedBackground="white/#939393FF">
+          <LabelStyle TextColor="Transparent" Font="font-export.fnt" />
+        </ListItemStyle>
+      </ListBoxStyle>
+      <LabelStyle TextColor="Black" Font="font-export.fnt" />
+    </ComboBoxStyle>
+  </ComboBoxStyles>
+  <ListBoxStyles>
+    <ListBoxStyle>
+      <ListItemStyle ImageTextSpacing="0" PressedBackground="white/#939393FF">
+        <LabelStyle TextColor="Transparent" Font="font-export.fnt" />
+      </ListItemStyle>
+    </ListBoxStyle>
+  </ListBoxStyles>
+  <HorizontalSplitPaneStyles>
+    <SplitPaneStyle>
+      <HandleStyle Background="split-pane" />
+    </SplitPaneStyle>
+  </HorizontalSplitPaneStyles>
+  <VerticalSplitPaneStyles>
+    <SplitPaneStyle>
+      <HandleStyle Background="split-pane" />
+    </SplitPaneStyle>
+  </VerticalSplitPaneStyles>
+  <ScrollViewerStyles>
+    <ScrollViewerStyle HorizontalScrollKnob="scrollbar/Black" VerticalScrollKnob="scrollbar/Black" />
+  </ScrollViewerStyles>
+  <WindowStyles>
+    <WindowStyle Background="window/Yellow">
+      <TitleStyle TextColor="Black" Font="font-title-export.fnt" />
+    </WindowStyle>
+  </WindowStyles>
+</Stylesheet>

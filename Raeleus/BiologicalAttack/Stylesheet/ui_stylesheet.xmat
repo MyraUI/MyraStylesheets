@@ -1,0 +1,33 @@
+<TextureAtlas Image="biological-attack-ui.png">
+  <TextureRegion Id="checkbox" Left="144" Top="347" Width="46" Height="40" />
+  <TextureRegion Id="touchpad-knob" Left="1" Top="187" Width="134" Height="134" />
+  <TextureRegion Id="touchpad" Left="384" Top="839" Width="148" Height="148" />
+  <NinePatchRegion Id="title-bg" Left="215" Top="618" Width="20" Height="20" NinePatchLeft="0" NinePatchTop="0" NinePatchRight="0" NinePatchBottom="0" />
+  <NinePatchRegion Id="textfield" Left="137" Top="219" Width="34" Height="34" NinePatchLeft="2" NinePatchTop="2" NinePatchRight="2" NinePatchBottom="2" />
+  <TextureRegion Id="split-pane" Left="598" Top="1020" Width="2" Height="2" />
+  <TextureRegion Id="slider-knob" Left="137" Top="255" Width="44" Height="48" />
+  <TextureRegion Id="slider" Left="526" Top="789" Width="2" Height="48" />
+  <NinePatchRegion Id="select-box-pressed" Left="1" Top="68" Width="72" Height="42" NinePatchLeft="9" NinePatchTop="0" NinePatchRight="39" NinePatchBottom="0" />
+  <NinePatchRegion Id="select-box" Left="384" Top="653" Width="72" Height="42" NinePatchLeft="9" NinePatchTop="0" NinePatchRight="39" NinePatchBottom="0" />
+  <NinePatchRegion Id="scrollbar" Left="602" Top="927" Width="19" Height="19" NinePatchLeft="2" NinePatchTop="2" NinePatchRight="2" NinePatchBottom="2" />
+  <TextureRegion Id="radio-off" Left="151" Top="440" Width="50" Height="46" />
+  <TextureRegion Id="radio" Left="74" Top="14" Width="50" Height="46" />
+  <TextureRegion Id="progress-bar-knob" Left="384" Top="989" Width="212" Height="33" />
+  <TextureRegion Id="white" Left="75" Top="109" Width="1" Height="1" />
+  <TextureRegion Id="progress-bar" Left="1" Top="605" Width="212" Height="33" />
+  <TextureRegion Id="icon-warning" Left="75" Top="62" Width="53" Height="45" />
+  <TextureRegion Id="icon-radiation-large" Left="1" Top="455" Width="148" Height="148" />
+  <TextureRegion Id="icon-radiation" Left="151" Top="538" Width="71" Height="65" />
+  <TextureRegion Id="icon-poison" Left="1" Top="1" Width="71" Height="65" />
+  <TextureRegion Id="icon-laser" Left="151" Top="488" Width="65" Height="48" />
+  <TextureRegion Id="icon-gas-mask" Left="458" Top="631" Width="56" Height="64" />
+  <TextureRegion Id="icon-fire" Left="82" Top="109" Width="58" Height="76" />
+  <TextureRegion Id="icon-electricity" Left="602" Top="948" Width="44" Height="74" />
+  <TextureRegion Id="icon-biohazard-large" Left="1" Top="323" Width="141" Height="130" />
+  <TextureRegion Id="icon-biohazard" Left="1" Top="112" Width="79" Height="73" />
+  <TextureRegion Id="font-title-export" Left="1" Top="640" Width="381" Height="382" />
+  <TextureRegion Id="font-export" Left="384" Top="697" Width="140" Height="140" />
+  <TextureRegion Id="checkbox-off" Left="144" Top="305" Width="46" Height="40" />
+  <NinePatchRegion Id="list" Left="144" Top="389" Width="49" Height="49" NinePatchLeft="2" NinePatchTop="2" NinePatchRight="2" NinePatchBottom="2" />
+  <NinePatchRegion Id="window" Left="534" Top="858" Width="66" Height="129" NinePatchLeft="2" NinePatchTop="99" NinePatchRight="2" NinePatchBottom="2" />
+</TextureAtlas>
