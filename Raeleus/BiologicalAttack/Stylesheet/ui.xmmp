@@ -1,9 +1,9 @@
 <Project StylesheetPath="ui_stylesheet.xmms">
   <Project.ExportOptions />
-  <VerticalStackPanel HorizontalAlignment="Center" Width="700" Background="White" >
+  <VerticalStackPanel HorizontalAlignment="Center" Width="700" Background="White">
     <VerticalStackPanel HorizontalAlignment="Center" Width="500" Height="300" Background="window/Yellow">
       <Panel Height="100">
-        <Label Text="CAUTION" TextColor="Yellow" HorizontalAlignment="Center" VerticalAlignment="Center" Background="Black" />
+        <Label Text="CAUTION" Font="title" TextColor="Yellow" HorizontalAlignment="Center" VerticalAlignment="Center" Background="Black" />
       </Panel>
       <HorizontalSplitPane StackPanel.ProportionType="Fill">
         <Grid ColumnSpacing="8" RowSpacing="8" HorizontalAlignment="Center" VerticalAlignment="Center">
@@ -19,16 +19,18 @@
     </VerticalStackPanel>
     <HorizontalStackPanel Spacing="20" Padding="20, 40, 20, 0" StackPanel.ProportionType="Fill">
       <VerticalStackPanel Spacing="10" StackPanel.ProportionType="Part">
-        <RadioButton UncheckedImage="radio-off/Yellow" CheckedImage="radio/Yellow">
-          <Label Text="HARD" VerticalAlignment="Center" />
-        </RadioButton>
-        <RadioButton UncheckedImage="radio-off/Yellow" CheckedImage="radio/Yellow">
-          <Label Text="MEDIUM" VerticalAlignment="Center" />
-        </RadioButton>
-        <RadioButton UncheckedImage="radio-off/Yellow" CheckedImage="radio/Yellow">
-          <Label Text="EASY" VerticalAlignment="Center" />
-        </RadioButton>
-        <ComboView Width="150" Padding="4">
+        <VerticalStackPanel Spacing="8" HorizontalAlignment="Center">
+          <RadioButton UncheckedImage="radio-off/Yellow" CheckedImage="radio/Yellow">
+            <Label Text="HARD" VerticalAlignment="Center" />
+          </RadioButton>
+          <RadioButton UncheckedImage="radio-off/Yellow" CheckedImage="radio/Yellow">
+            <Label Text="MEDIUM" VerticalAlignment="Center" />
+          </RadioButton>
+          <RadioButton UncheckedImage="radio-off/Yellow" CheckedImage="radio/Yellow">
+            <Label Text="EASY" VerticalAlignment="Center" />
+          </RadioButton>
+        </VerticalStackPanel>
+        <ComboView Padding="4">
           <Label Text="NUKE DUKEM" />
           <Label Text="FALLINGOUT" />
           <Label Text="BORDERWALLS" />
@@ -38,27 +40,27 @@
         </ComboView>
       </VerticalStackPanel>
       <VerticalStackPanel Spacing="15" StackPanel.ProportionType="Part">
-        <HorizontalStackPanel Spacing="15">
+        <VerticalStackPanel Spacing="15" HorizontalAlignment="Center">
           <CheckButton UncheckedImage="checkbox-off/Black" CheckedImage="checkbox/Black">
-            <Label Text="SFX" />
+            <Label Text="SFX" VerticalAlignment="Center" />
           </CheckButton>
           <CheckButton UncheckedImage="checkbox-off/Black" CheckedImage="checkbox/Black">
-            <Label Text="BGM" />
+            <Label Text="BGM" VerticalAlignment="Center" />
           </CheckButton>
-        </HorizontalStackPanel>
-        <TextBox Text="Type Hesdadre" Width="200" />
-        <ScrollViewer ShowHorizontalScrollBar="False" Height="150">
+        </VerticalStackPanel>
+        <TextBox HintText="Type Here" HorizontalAlignment="Center" Width="200" />
+        <ScrollViewer ShowHorizontalScrollBar="False" Height="250"  Border="Black" BorderThickness="2">
           <VerticalStackPanel>
             <HorizontalStackPanel Spacing="10" Padding="10, 0, 0, 0">
-              <Image Renderable="icon-poison" Width="71" Height="71" />
-              <Image Renderable="icon-fire" Width="58" Height="58" />
-              <Image Renderable="icon-electricity" Width="44" Height="44" />
+              <Image Renderable="icon-poison" Color="Black" />
+              <Image Renderable="icon-fire" Color="Black" />
+              <Image Renderable="icon-electricity" Color="Black" />
             </HorizontalStackPanel>
             <Label Text="The biohazard symbol is a very recognizable graphic used throughout the medical field. In the entertainment industry, it's synonymous with outbreaks of infection crazed monkeys, zombies, and world ending epidemics. One may notice, however, that the symbol itself is utterly meaningless. It's not a model describing some aspect of virology like how the atom diagram illustrates neutrons and electrons. It's just an example of effective symbolism proliferating throughout our culture." Wrap="True" />
           </VerticalStackPanel>
         </ScrollViewer>
-        <HorizontalProgressBar Width="212" Height="33" Id="progressBar" />
-        <HorizontalSlider Width="250" Id="slider" />
+        <HorizontalProgressBar HorizontalAlignment="Center" Value="50" Width="212" Height="33" />
+        <HorizontalSlider HorizontalAlignment="Center" Width="250" Id="slider" />
       </VerticalStackPanel>
     </HorizontalStackPanel>
   </VerticalStackPanel>

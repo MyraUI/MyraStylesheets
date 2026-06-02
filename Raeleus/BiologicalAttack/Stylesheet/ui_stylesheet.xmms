@@ -9,7 +9,7 @@
     <LabelStyle TextColor="Yellow" Font="font-title-export.fnt" Id="title-bg" />
   </LabelStyles>
   <TextBoxStyles>
-    <TextBoxStyle TextColor="Black" Font="font-export.fnt" Cursor="split-pane" Selection="white/#939393FF" Background="textfield/Black" />
+    <TextBoxStyle TextColor="Black" Font="font" Cursor="split-pane" Selection="white/#939393FF" Border="Black" BorderThickness="2" Padding="2" />
   </TextBoxStyles>
   <ButtonStyles>
     <ImageButtonStyle PressedBackground="icon-biohazard/#E6E6E6FF" Width="79" Height="73" Background="icon-biohazard/Black" OverBackground="icon-biohazard/#939393FF" />
@@ -46,28 +46,20 @@
     </SliderStyle>
   </VerticalSliderStyles>
   <HorizontalProgressBarStyles>
-    <ProgressBarStyle Background="progress-bar" />
+    <ProgressBarStyle Background="progress-bar" Filler="progress-bar-knob" />
   </HorizontalProgressBarStyles>
   <VerticalProgressBarStyles>
-    <ProgressBarStyle Background="progress-bar" />
+    <ProgressBarStyle Background="progress-bar" Filler="progress-bar-knob" />
   </VerticalProgressBarStyles>
   <ComboBoxStyles>
-    <ComboBoxStyle>
-      <ListBoxStyle>
+    <ComboBoxStyle Background="select-box/#FFFF00FF" Padding="8">
+      <ListBoxStyle Background="list/#FFFF00FF" Padding="8">
         <ListItemStyle ImageTextSpacing="0" PressedBackground="white/#939393FF">
-          <LabelStyle TextColor="Transparent" Font="font-export.fnt" />
+          <LabelStyle TextColor="Transparent" Font="font" />
         </ListItemStyle>
       </ListBoxStyle>
-      <LabelStyle TextColor="Black" Font="font-export.fnt" />
     </ComboBoxStyle>
   </ComboBoxStyles>
-  <ListBoxStyles>
-    <ListBoxStyle>
-      <ListItemStyle ImageTextSpacing="0" PressedBackground="white/#939393FF">
-        <LabelStyle TextColor="Transparent" Font="font-export.fnt" />
-      </ListItemStyle>
-    </ListBoxStyle>
-  </ListBoxStyles>
   <HorizontalSplitPaneStyles>
     <SplitPaneStyle>
       <HandleStyle Background="split-pane" />
@@ -81,9 +73,4 @@
   <ScrollViewerStyles>
     <ScrollViewerStyle HorizontalScrollKnob="scrollbar/Black" VerticalScrollKnob="scrollbar/Black" />
   </ScrollViewerStyles>
-  <WindowStyles>
-    <WindowStyle Background="window/Yellow">
-      <TitleStyle TextColor="Black" Font="font-title-export.fnt" />
-    </WindowStyle>
-  </WindowStyles>
 </Stylesheet>
