@@ -1,0 +1,20 @@
+<TextureAtlas Image="arcade-ui.png">
+  <TextureRegion Id="bg" Left="597" Top="623" Width="400" Height="400" />
+  <TextureRegion Id="joystick-ur" Left="838" Top="147" Width="62" Height="89" />
+  <TextureRegion Id="joystick-ul" Left="774" Top="147" Width="62" Height="89" />
+  <TextureRegion Id="joystick-u" Left="240" Top="23" Width="58" Height="90" />
+  <TextureRegion Id="joystick-r" Left="706" Top="143" Width="66" Height="93" />
+  <TextureRegion Id="joystick-l" Left="638" Top="143" Width="66" Height="93" />
+  <TextureRegion Id="joystick-dr" Left="568" Top="147" Width="68" Height="89" />
+  <TextureRegion Id="joystick-dl" Left="497" Top="149" Width="69" Height="89" />
+  <TextureRegion Id="joystick-d" Left="300" Top="19" Width="58" Height="94" />
+  <TextureRegion Id="joystick-bg" Left="177" Top="115" Width="122" Height="123" />
+  <TextureRegion Id="joystick" Left="965" Top="142" Width="58" Height="94" />
+  <TextureRegion Id="font-export" Left="1" Top="63" Width="174" Height="175" />
+  <TextureRegion Id="button-pressed" Left="902" Top="175" Width="61" Height="61" />
+  <TextureRegion Id="button-bg" Left="401" Top="144" Width="94" Height="94" />
+  <TextureRegion Id="button" Left="177" Top="52" Width="61" Height="61" />
+  <TextureRegion Id="booth" Left="1" Top="240" Width="594" Height="783" />
+  <TextureRegion Id="screen-export" Left="301" Top="140" Width="98" Height="98" />
+  <TextureRegion Id="title-export" Left="597" Top="238" Width="383" Height="383" />
+</TextureAtlas>

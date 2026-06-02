@@ -1,0 +1,18 @@
+<Stylesheet TextureRegionAtlas="ui_stylesheet.xmat">
+  <Fonts>
+    <Font Id="font" File="font-export.fnt" />
+    <Font Id="screen" File="screen-export.fnt" />
+    <Font Id="title" File="title-export.fnt" />
+  </Fonts>
+  <LabelStyles>
+    <LabelStyle TextColor="White" Font="font-export.fnt" />
+    <LabelStyle TextColor="White" Font="screen-export.fnt" Id="screen" />
+    <LabelStyle TextColor="Red" Font="title-export.fnt" Id="title" />
+  </LabelStyles>
+  <ButtonStyles>
+    <ButtonStyle PressedBackground="button-pressed" Background="button" />
+    <ButtonStyle PressedBackground="button-pressed/Red" Id="red" Background="button/Red" />
+    <ButtonStyle PressedBackground="button-pressed/Blue" Id="blue" Background="button/Blue" />
+    <ButtonStyle PressedBackground="button-pressed/Yellow" Id="yellow" Background="button/Yellow" />
+  </ButtonStyles>
+</Stylesheet>
