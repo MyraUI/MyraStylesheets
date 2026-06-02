@@ -1,10 +1,10 @@
 <Project StylesheetPath="ui_stylesheet.xmms">
   <Project.ExportOptions />
   <Panel Background="bg">
-    <VerticalStackPanel Spacing="8" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="594" Height="783" Background="booth" >
+    <VerticalStackPanel Spacing="8" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="594" Height="783" Background="booth">
       <Label Text="Arcade UI" StyleName="title" Padding="0, 10, 0, 0" HorizontalAlignment="Center" />
-      <Label Text="INSERT COIN(S)&#xA;TO CONTINUE&#xA;7" TextAlign="Center" StyleName="screen" Padding="0, 250, 0, 0" HorizontalAlignment="Center" />
-      <HorizontalStackPanel Spacing="10" HorizontalAlignment="Center" VerticalAlignment="Bottom" StackPanel.ProportionType="Fill" >
+      <Label Text="INSERT COIN(S)/nTO CONTINUE/n7" TextAlign="Center" StyleName="screen" Padding="0, 250, 0, 0" HorizontalAlignment="Center" />
+      <HorizontalStackPanel Spacing="10" HorizontalAlignment="Center" VerticalAlignment="Bottom" StackPanel.ProportionType="Fill">
         <Panel>
           <Image Renderable="button-bg" />
           <Button HorizontalAlignment="Center" VerticalAlignment="Center">
@@ -13,7 +13,7 @@
         </Panel>
         <Label Text="1P Start" VerticalAlignment="Center" />
       </HorizontalStackPanel>
-      <HorizontalStackPanel HorizontalAlignment="Center" Padding="0, 0, 0, 15" >
+      <HorizontalStackPanel HorizontalAlignment="Center" Padding="0, 0, 0, 15">
         <Panel>
           <Image Renderable="joystick-bg" />
         </Panel>
