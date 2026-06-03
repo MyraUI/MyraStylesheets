@@ -22,14 +22,14 @@
     <ImageButtonStyle PressedBackground="icon-laser/#E6E6E6FF" Id="laser" Width="65" Height="48" Background="icon-laser/Black" OverBackground="icon-laser/#939393FF" />
   </ButtonStyles>
   <CheckBoxStyles>
-    <ImageTextButtonStyle>
+    <CheckButtonStyle>
       <ImageStyle PressedImage="checkbox/Black" Image="checkbox-off/Black" />
-    </ImageTextButtonStyle>
+    </CheckButtonStyle>
   </CheckBoxStyles>
   <RadioButtonStyles>
-    <ImageTextButtonStyle>
+    <CheckButtonStyle>
       <ImageStyle PressedImage="radio/Yellow" Image="radio-off/Yellow" />
-    </ImageTextButtonStyle>
+    </CheckButtonStyle>
   </RadioButtonStyles>
   <HorizontalSliderStyles>
     <SliderStyle Background="white/#FFFFFF00">
