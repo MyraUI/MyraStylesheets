@@ -3,7 +3,7 @@
   <VerticalStackPanel HorizontalAlignment="Center" Width="700" Background="White">
     <VerticalStackPanel HorizontalAlignment="Center" Width="500" Height="300" Background="window/Yellow">
       <Panel Height="100">
-        <Label Text="CAUTION" Font="title" TextColor="Yellow" HorizontalAlignment="Center" VerticalAlignment="Center" Background="Black" />
+        <Label Text="CAUTION" Font="title" TextColor="Yellow" Top="-3" HorizontalAlignment="Center" VerticalAlignment="Center" Background="Black" Height="80" />
       </Panel>
       <HorizontalSplitPane StackPanel.ProportionType="Fill">
         <Grid ColumnSpacing="8" RowSpacing="8" HorizontalAlignment="Center" VerticalAlignment="Center">
@@ -60,7 +60,6 @@
           </VerticalStackPanel>
         </ScrollViewer>
         <HorizontalProgressBar HorizontalAlignment="Center" Value="50" Width="200" Height="30" />
-        <HorizontalSlider HorizontalAlignment="Center" Width="250" Id="slider" />
       </VerticalStackPanel>
     </HorizontalStackPanel>
   </VerticalStackPanel>
