@@ -3,7 +3,7 @@
   <VerticalStackPanel HorizontalAlignment="Center" Width="700" Background="White">
     <VerticalStackPanel HorizontalAlignment="Center" Width="500" Height="300" Background="window/Yellow">
       <Panel Height="100">
-        <Label Text="CAUTION" Font="title" TextColor="Yellow" HorizontalAlignment="Center" VerticalAlignment="Center" Background="Black" />
+        <Label Text="CAUTION" TextColor="Yellow" HorizontalAlignment="Center" VerticalAlignment="Center" Background="Black" />
       </Panel>
       <HorizontalSplitPane StackPanel.ProportionType="Fill">
         <Grid ColumnSpacing="8" RowSpacing="8" HorizontalAlignment="Center" VerticalAlignment="Center">
@@ -49,7 +49,7 @@
           </CheckButton>
         </VerticalStackPanel>
         <TextBox HintText="Type Here" HorizontalAlignment="Center" Width="200" />
-        <ScrollViewer ShowHorizontalScrollBar="False" Height="250"  Border="Black" BorderThickness="2">
+        <ScrollViewer ShowHorizontalScrollBar="False" Height="250" Border="Black" BorderThickness="2">
           <VerticalStackPanel>
             <HorizontalStackPanel Spacing="10" Padding="10, 0, 0, 0">
               <Image Renderable="icon-poison" Color="Black" />
@@ -59,7 +59,7 @@
             <Label Text="The biohazard symbol is a very recognizable graphic used throughout the medical field. In the entertainment industry, it's synonymous with outbreaks of infection crazed monkeys, zombies, and world ending epidemics. One may notice, however, that the symbol itself is utterly meaningless. It's not a model describing some aspect of virology like how the atom diagram illustrates neutrons and electrons. It's just an example of effective symbolism proliferating throughout our culture." Wrap="True" />
           </VerticalStackPanel>
         </ScrollViewer>
-        <HorizontalProgressBar HorizontalAlignment="Center" Value="50" Width="212" Height="33" />
+        <HorizontalProgressBar HorizontalAlignment="Center" Value="50" Width="200" Height="30" />
         <HorizontalSlider HorizontalAlignment="Center" Width="250" Id="slider" />
       </VerticalStackPanel>
     </HorizontalStackPanel>
