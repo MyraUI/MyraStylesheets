@@ -5,9 +5,9 @@
     <Font Id="title" File="title-export.fnt" />
   </Fonts>
   <LabelStyles>
-    <LabelStyle TextColor="White" Font="font-export.fnt" />
-    <LabelStyle TextColor="White" Font="screen-export.fnt" Id="screen" />
-    <LabelStyle TextColor="Red" Font="title-export.fnt" Id="title" />
+    <LabelStyle TextColor="White" Font="font" />
+    <LabelStyle TextColor="White" Font="screen" Id="screen" />
+    <LabelStyle TextColor="Red" Font="title" Id="title" />
   </LabelStyles>
   <ButtonStyles>
     <ButtonStyle PressedBackground="button-pressed" Background="button" />
