@@ -9,7 +9,7 @@
     <LabelStyle TextColor="Yellow" Font="font-title-export.fnt" Id="title-bg" />
   </LabelStyles>
   <TextBoxStyles>
-    <TextBoxStyle TextColor="Black" Font="font" Cursor="split-pane" Selection="white/#939393FF" Border="Black" BorderThickness="2" Padding="2" />
+    <TextBoxStyle TextColor="Black" Font="font" Cursor="split-pane" Selection="#939393FF" Border="Black" BorderThickness="2" Padding="2" />
   </TextBoxStyles>
   <ButtonStyles>
     <ImageButtonStyle PressedBackground="icon-biohazard/#E6E6E6FF" Width="79" Height="73" Background="icon-biohazard/Black" OverBackground="icon-biohazard/#939393FF" />
@@ -32,14 +32,14 @@
     </RadioButtonStyle>
   </RadioButtonStyles>
   <HorizontalSliderStyles>
-    <SliderStyle Background="white/#FFFFFF00">
+    <SliderStyle Background="#FFFFFF00">
       <KnobStyle>
         <ImageStyle Image="slider-knob/Black" />
       </KnobStyle>
     </SliderStyle>
   </HorizontalSliderStyles>
   <VerticalSliderStyles>
-    <SliderStyle Background="white/#FFFFFF00">
+    <SliderStyle Background="#FFFFFF00">
       <KnobStyle>
         <ImageStyle Image="slider-knob/Black" />
       </KnobStyle>
@@ -52,9 +52,9 @@
     <ProgressBarStyle Background="progress-bar" Filler="progress-bar-knob" />
   </VerticalProgressBarStyles>
   <ComboBoxStyles>
-    <ComboBoxStyle Background="select-box/#FFFF00FF" Padding="8">
-      <ListBoxStyle Background="list/#FFFF00FF" Padding="8">
-        <ListItemStyle ImageTextSpacing="0" PressedBackground="white/#939393FF">
+    <ComboBoxStyle Background="select-box/#FFFF00FF" Height="42" Padding="8">
+      <ListBoxStyle Background="list/#FFFF00FF" Padding="2">
+        <ListItemStyle ImageTextSpacing="0" PressedBackground="#939393FF" Padding="8">
           <LabelStyle TextColor="Transparent" Font="font" />
         </ListItemStyle>
       </ListBoxStyle>

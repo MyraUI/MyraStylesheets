@@ -3,7 +3,7 @@
   <VerticalStackPanel HorizontalAlignment="Center" Width="700" Background="White">
     <VerticalStackPanel HorizontalAlignment="Center" Width="500" Height="300" Background="window/Yellow">
       <Panel Height="100">
-        <Label Text="CAUTION" TextColor="Yellow" HorizontalAlignment="Center" VerticalAlignment="Center" Background="Black" />
+        <Label Text="CAUTION" Font="title" TextColor="Yellow" HorizontalAlignment="Center" VerticalAlignment="Center" Background="Black" />
       </Panel>
       <HorizontalSplitPane StackPanel.ProportionType="Fill">
         <Grid ColumnSpacing="8" RowSpacing="8" HorizontalAlignment="Center" VerticalAlignment="Center">
@@ -20,13 +20,13 @@
     <HorizontalStackPanel Spacing="20" Padding="20, 40, 20, 0" StackPanel.ProportionType="Fill">
       <VerticalStackPanel Spacing="10" StackPanel.ProportionType="Part">
         <VerticalStackPanel Spacing="8" HorizontalAlignment="Center">
-          <RadioButton UncheckedImage="radio-off/Yellow" CheckedImage="radio/Yellow">
+          <RadioButton>
             <Label Text="HARD" VerticalAlignment="Center" />
           </RadioButton>
-          <RadioButton UncheckedImage="radio-off/Yellow" CheckedImage="radio/Yellow">
+          <RadioButton>
             <Label Text="MEDIUM" VerticalAlignment="Center" />
           </RadioButton>
-          <RadioButton UncheckedImage="radio-off/Yellow" CheckedImage="radio/Yellow">
+          <RadioButton>
             <Label Text="EASY" VerticalAlignment="Center" />
           </RadioButton>
         </VerticalStackPanel>
@@ -41,10 +41,10 @@
       </VerticalStackPanel>
       <VerticalStackPanel Spacing="15" StackPanel.ProportionType="Part">
         <VerticalStackPanel Spacing="15" HorizontalAlignment="Center">
-          <CheckButton UncheckedImage="checkbox-off/Black" CheckedImage="checkbox/Black">
+          <CheckButton>
             <Label Text="SFX" VerticalAlignment="Center" />
           </CheckButton>
-          <CheckButton UncheckedImage="checkbox-off/Black" CheckedImage="checkbox/Black">
+          <CheckButton>
             <Label Text="BGM" VerticalAlignment="Center" />
           </CheckButton>
         </VerticalStackPanel>
