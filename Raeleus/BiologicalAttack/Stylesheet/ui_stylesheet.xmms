@@ -4,12 +4,12 @@
     <Font Id="title" File="font-title-export.fnt" />
   </Fonts>
   <LabelStyles>
-    <LabelStyle TextColor="Black" Font="font-export.fnt" />
-    <LabelStyle TextColor="Black" Font="font-title-export.fnt" Id="title" />
-    <LabelStyle TextColor="Yellow" Font="font-title-export.fnt" Id="title-bg" />
+    <LabelStyle TextColor="Black" Font="font" />
+    <LabelStyle TextColor="Black" Font="title" Id="title" />
+    <LabelStyle TextColor="Yellow" Font="title" Id="title-bg" />
   </LabelStyles>
   <TextBoxStyles>
-    <TextBoxStyle TextColor="Black" Font="font" Cursor="split-pane" Selection="#939393FF" Border="Black" BorderThickness="2" Padding="2" />
+    <TextBoxStyle TextColor="Black" Font="font" Cursor="split-pane" Selection="white/#939393FF" Border="Black" BorderThickness="2" Padding="2" />
   </TextBoxStyles>
   <ButtonStyles>
     <ImageButtonStyle PressedBackground="icon-biohazard/#E6E6E6FF" Width="79" Height="73" Background="icon-biohazard/Black" OverBackground="icon-biohazard/#939393FF" />
@@ -22,44 +22,48 @@
     <ImageButtonStyle PressedBackground="icon-laser/#E6E6E6FF" Id="laser" Width="65" Height="48" Background="icon-laser/Black" OverBackground="icon-laser/#939393FF" />
   </ButtonStyles>
   <CheckBoxStyles>
-    <CheckBoxStyle>
+    <ImageTextButtonStyle>
       <ImageStyle PressedImage="checkbox/Black" Image="checkbox-off/Black" />
-    </CheckBoxStyle>
+    </ImageTextButtonStyle>
   </CheckBoxStyles>
   <RadioButtonStyles>
-    <RadioButtonStyle>
+    <ImageTextButtonStyle>
       <ImageStyle PressedImage="radio/Yellow" Image="radio-off/Yellow" />
-    </RadioButtonStyle>
+    </ImageTextButtonStyle>
   </RadioButtonStyles>
   <HorizontalSliderStyles>
-    <SliderStyle Background="#FFFFFF00">
+    <SliderStyle Background="white/#FFFFFF00">
       <KnobStyle>
         <ImageStyle Image="slider-knob/Black" />
       </KnobStyle>
     </SliderStyle>
   </HorizontalSliderStyles>
   <VerticalSliderStyles>
-    <SliderStyle Background="#FFFFFF00">
+    <SliderStyle Background="white/#FFFFFF00">
       <KnobStyle>
         <ImageStyle Image="slider-knob/Black" />
       </KnobStyle>
     </SliderStyle>
   </VerticalSliderStyles>
   <HorizontalProgressBarStyles>
-    <ProgressBarStyle Background="progress-bar" Filler="progress-bar-knob" />
+    <ProgressBarStyle Filler="progress-bar-knob" Background="progress-bar" />
   </HorizontalProgressBarStyles>
   <VerticalProgressBarStyles>
-    <ProgressBarStyle Background="progress-bar" Filler="progress-bar-knob" />
+    <ProgressBarStyle Filler="progress-bar-knob" Background="progress-bar" />
   </VerticalProgressBarStyles>
   <ComboBoxStyles>
-    <ComboBoxStyle Background="select-box/#FFFF00FF" Height="42" Padding="8">
-      <ListBoxStyle Background="list/#FFFF00FF" Padding="2">
-        <ListItemStyle ImageTextSpacing="0" PressedBackground="#939393FF" Padding="8">
-          <LabelStyle TextColor="Transparent" Font="font" />
-        </ListItemStyle>
+    <ComboBoxStyle PressedBackground="select-box-pressed/Yellow" Height="42" Background="select-box/Yellow" Padding="8">
+      <ListBoxStyle Background="list/Yellow" Padding="2">
+        <ListItemStyle PressedBackground="white/#939393FF" Padding="8" />
       </ListBoxStyle>
+      <LabelStyle TextColor="Black" Font="font" />
     </ComboBoxStyle>
   </ComboBoxStyles>
+  <ListBoxStyles>
+    <ListBoxStyle Background="list/Yellow">
+      <ListItemStyle PressedBackground="white/#939393FF" />
+    </ListBoxStyle>
+  </ListBoxStyles>
   <HorizontalSplitPaneStyles>
     <SplitPaneStyle>
       <HandleStyle Background="split-pane" />
@@ -73,4 +77,9 @@
   <ScrollViewerStyles>
     <ScrollViewerStyle HorizontalScrollKnob="scrollbar/Black" VerticalScrollKnob="scrollbar/Black" />
   </ScrollViewerStyles>
+  <WindowStyles>
+    <WindowStyle Background="window/Yellow">
+      <TitleStyle TextColor="Black" Font="title" />
+    </WindowStyle>
+  </WindowStyles>
 </Stylesheet>
