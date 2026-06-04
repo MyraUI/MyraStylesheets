@@ -12,14 +12,14 @@
     <TextBoxStyle TextColor="Black" Font="font" Cursor="split-pane" Selection="white/#939393FF" Border="Black" BorderThickness="2" Padding="2" />
   </TextBoxStyles>
   <ButtonStyles>
-    <ImageButtonStyle PressedBackground="icon-biohazard/#E6E6E6FF" Width="79" Height="73" Background="icon-biohazard/Black" OverBackground="icon-biohazard/#939393FF" />
-    <ImageButtonStyle PressedBackground="icon-warning/#E6E6E6FF" Id="warning" Width="53" Height="45" Background="icon-warning/Black" OverBackground="icon-warning/#939393FF" />
-    <ImageButtonStyle PressedBackground="icon-poison/#E6E6E6FF" Id="poison" Width="71" Height="65" Background="icon-poison/Black" OverBackground="icon-poison/#939393FF" />
-    <ImageButtonStyle PressedBackground="icon-fire/#E6E6E6FF" Id="fire" Width="58" Height="76" Background="icon-fire/Black" OverBackground="icon-fire/#939393FF" />
-    <ImageButtonStyle PressedBackground="icon-gas-mask/#E6E6E6FF" Id="gasmask" Width="56" Height="64" Background="icon-gas-mask/Black" OverBackground="icon-gas-mask/#939393FF" />
-    <ImageButtonStyle PressedBackground="icon-electricity/#E6E6E6FF" Id="electricity" Width="44" Height="74" Background="icon-electricity/Black" OverBackground="icon-electricity/#939393FF" />
-    <ImageButtonStyle PressedBackground="icon-radiation/#E6E6E6FF" Id="radiation" Width="71" Height="65" Background="icon-radiation/Black" OverBackground="icon-radiation/#939393FF" />
-    <ImageButtonStyle PressedBackground="icon-laser/#E6E6E6FF" Id="laser" Width="65" Height="48" Background="icon-laser/Black" OverBackground="icon-laser/#939393FF" />
+    <ButtonStyle PressedBackground="icon-biohazard/#E6E6E6FF" Width="79" Height="73" Background="icon-biohazard/Black" OverBackground="icon-biohazard/#939393FF" />
+    <ButtonStyle PressedBackground="icon-warning/#E6E6E6FF" Id="warning" Width="53" Height="45" Background="icon-warning/Black" OverBackground="icon-warning/#939393FF" />
+    <ButtonStyle PressedBackground="icon-poison/#E6E6E6FF" Id="poison" Width="71" Height="65" Background="icon-poison/Black" OverBackground="icon-poison/#939393FF" />
+    <ButtonStyle PressedBackground="icon-fire/#E6E6E6FF" Id="fire" Width="58" Height="76" Background="icon-fire/Black" OverBackground="icon-fire/#939393FF" />
+    <ButtonStyle PressedBackground="icon-gas-mask/#E6E6E6FF" Id="gasmask" Width="56" Height="64" Background="icon-gas-mask/Black" OverBackground="icon-gas-mask/#939393FF" />
+    <ButtonStyle PressedBackground="icon-electricity/#E6E6E6FF" Id="electricity" Width="44" Height="74" Background="icon-electricity/Black" OverBackground="icon-electricity/#939393FF" />
+    <ButtonStyle PressedBackground="icon-radiation/#E6E6E6FF" Id="radiation" Width="71" Height="65" Background="icon-radiation/Black" OverBackground="icon-radiation/#939393FF" />
+    <ButtonStyle PressedBackground="icon-laser/#E6E6E6FF" Id="laser" Width="65" Height="48" Background="icon-laser/Black" OverBackground="icon-laser/#939393FF" />
   </ButtonStyles>
   <CheckBoxStyles>
     <CheckButtonStyle>

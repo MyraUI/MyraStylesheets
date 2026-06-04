@@ -3,7 +3,7 @@
   <VerticalStackPanel HorizontalAlignment="Center" Width="700" Background="White">
     <VerticalStackPanel HorizontalAlignment="Center" Width="500" Height="300" Background="window/Yellow">
       <Panel Height="100">
-        <Label Text="CAUTION" Font="title" TextColor="Yellow" Top="-3" HorizontalAlignment="Center" VerticalAlignment="Center" Background="Black" Height="80" />
+        <Label Text="CAUTION" Font="title" TextColor="Yellow" Top="-3" Height="80" HorizontalAlignment="Center" VerticalAlignment="Center" Background="Black" />
       </Panel>
       <HorizontalSplitPane StackPanel.ProportionType="Fill">
         <Grid ColumnSpacing="8" RowSpacing="8" HorizontalAlignment="Center" VerticalAlignment="Center">
