@@ -56,7 +56,6 @@
       <ListBoxStyle Background="list/Yellow" Padding="2">
         <ListItemStyle PressedBackground="white/#939393FF" Padding="8" />
       </ListBoxStyle>
-      <LabelStyle TextColor="Black" Font="font" />
     </ComboBoxStyle>
   </ComboBoxStyles>
   <ListBoxStyles>

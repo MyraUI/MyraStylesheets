@@ -30,7 +30,7 @@
             <Label Text="EASY" VerticalAlignment="Center" />
           </RadioButton>
         </VerticalStackPanel>
-        <ComboView Padding="4">
+        <ComboView>
           <Label Text="NUKE DUKEM" />
           <Label Text="FALLINGOUT" />
           <Label Text="BORDERWALLS" />
