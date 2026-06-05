@@ -1,7 +1,7 @@
 <Project StylesheetPath="ui_stylesheet.xmms">
   <Project.ExportOptions />
   <VerticalStackPanel HorizontalAlignment="Center" Width="700" Background="White">
-    <VerticalStackPanel HorizontalAlignment="Center" Width="500" Height="300" Background="window/Yellow">
+    <VerticalStackPanel HorizontalAlignment="Center" Width="500" Height="300" Background="window|Yellow">
       <Panel Height="100">
         <Label Text="CAUTION" Font="title" TextColor="Yellow" Top="-3" Height="80" HorizontalAlignment="Center" VerticalAlignment="Center" Background="Black" />
       </Panel>
@@ -14,7 +14,7 @@
           <Button StyleName="gasmask" Grid.Row="1" />
           <Label Text="GASMASKS/nMANDATORY" Grid.Column="1" Grid.Row="1" />
         </Grid>
-        <Image Renderable="icon-biohazard-large/Black" HorizontalAlignment="Center" VerticalAlignment="Center" />
+        <Image Renderable="icon-biohazard-large|Black" HorizontalAlignment="Center" VerticalAlignment="Center" />
       </HorizontalSplitPane>
     </VerticalStackPanel>
     <HorizontalStackPanel Spacing="20" Padding="20, 40, 20, 0" StackPanel.ProportionType="Fill">

@@ -23,14 +23,14 @@
           <Panel>
             <Image Renderable="button-bg" />
             <Button HorizontalAlignment="Center" VerticalAlignment="Center">
-              <Image Renderable="button/Red" />
+              <Image Renderable="button|Red" />
             </Button>
           </Panel>
           <Label Text="Punch" HorizontalAlignment="Center" Grid.Row="1" />
           <Panel Grid.Column="1">
             <Image Renderable="button-bg" />
             <Button HorizontalAlignment="Center" VerticalAlignment="Center">
-              <Image Renderable="button/Blue" />
+              <Image Renderable="button|Blue" />
             </Button>
           </Panel>
           <Label Text="Kick" HorizontalAlignment="Center" Grid.Column="1" Grid.Row="1" />
