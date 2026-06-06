@@ -4,8 +4,8 @@
   </Fonts>
   <DesktopStyle Background="blue" />
   <LabelStyles>
+    <LabelStyle TextColor="#A5A5FFFF" PressedTextColor="#4242E7FF" Font="commodore-64" />
     <LabelStyle TextColor="White" Font="commodore-64" Id="optional" />
-    <LabelStyle TextColor="#A5A5FFFF" PressedTextColor="White" Font="commodore-64" />
     <LabelStyle TextColor="#A5A5FFFF" PressedTextColor="White" Font="commodore-64" Id="radio" />
     <LabelStyle TextColor="#666666FF" Font="commodore-64" Id="error" />
     <LabelStyle TextColor="#A5A5FFFF" Font="commodore-64" Id="title" />

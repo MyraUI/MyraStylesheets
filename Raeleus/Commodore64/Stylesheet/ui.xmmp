@@ -7,7 +7,7 @@
       <Label Text="READY./nLOAD &quot;COMMODORE 64 UI&quot;/n/nPRESS PLAY ON TAPE/nLOADING.../nREADY." />
       <TextBox Text="RUN" HorizontalAlignment="Left" StyleName="nobg" />
     </VerticalStackPanel>
-    <Window StyleName="dialog" Left="158" Top="412">
+    <Window StyleName="dialog" Left="330" Top="238">
       <VerticalStackPanel Spacing="10">
         <Label Text="**** WINDOW ****" />
         <Label Text="LOGIN" StyleName="error" HorizontalAlignment="Center" />
@@ -25,7 +25,7 @@
         <HorizontalSlider Value="32.113823" />
       </VerticalStackPanel>
     </Window>
-    <Window Title="WINDOW" Left="144" Top="83">
+    <Window Title="WINDOW" Left="234" Top="259">
       <VerticalStackPanel Spacing="10">
         <Label Text="Press a button to continue..." StyleName="optional" />
         <HorizontalStackPanel Spacing="10" HorizontalAlignment="Center">
@@ -44,7 +44,7 @@
         </HorizontalStackPanel>
         <HorizontalStackPanel>
           <CheckButton StackPanel.ProportionType="Part">
-            <Label Text="Check Box" VerticalAlignment="Center" />
+            <Label Text="Check Box" StyleName="radio" VerticalAlignment="Center" />
           </CheckButton>
           <ComboView DropdownMaximumHeight="60" StackPanel.ProportionType="Part">
             <Label Text="Select Box" />
@@ -59,13 +59,13 @@
         </HorizontalStackPanel>
         <VerticalStackPanel Spacing="10">
           <RadioButton>
-            <Label Text="Selection 1" />
+            <Label Text="Selection 1" StyleName="radio" />
           </RadioButton>
           <RadioButton>
-            <Label Text="Selection 2" />
+            <Label Text="Selection 2" StyleName="radio" />
           </RadioButton>
           <RadioButton>
-            <Label Text="Selection 3" />
+            <Label Text="Selection 3" StyleName="radio" />
           </RadioButton>
         </VerticalStackPanel>
       </VerticalStackPanel>
