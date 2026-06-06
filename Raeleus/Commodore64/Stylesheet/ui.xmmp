@@ -1,13 +1,31 @@
 <Project StylesheetPath="ui_stylesheet.xmms">
   <Project.ExportOptions />
-  <Panel HorizontalAlignment="Center" VerticalAlignment="Center" Width="800" Height="600" Padding="22, 0" Background="window">
+  <Panel HorizontalAlignment="Center" VerticalAlignment="Center" Width="1000" Height="800" Padding="20, 22" Background="window">
     <VerticalStackPanel>
       <Label Text="**** COMMODORE 64 BASIC V2 ****" HorizontalAlignment="Center" />
       <Label Text="64K  RAM  SYSTEM  38911  BASIC  BYTES  FREE/n/n/n" HorizontalAlignment="Center" />
       <Label Text="READY./nLOAD &quot;COMMODORE 64 UI&quot;/n/nPRESS PLAY ON TAPE/nLOADING.../nREADY." />
       <TextBox Text="RUN" HorizontalAlignment="Left" StyleName="nobg" />
     </VerticalStackPanel>
-    <Window Title="WINDOW" Left="132" Top="177">
+    <Window StyleName="dialog" Left="158" Top="412">
+      <VerticalStackPanel Spacing="10">
+        <Label Text="**** WINDOW ****" />
+        <Label Text="LOGIN" StyleName="error" HorizontalAlignment="Center" />
+        <Grid ColumnSpacing="10" RowSpacing="10">
+          <Grid.DefaultColumnProportion Type="Auto" />
+          <Grid.DefaultRowProportion Type="Auto" />
+          <Label Text="USER:" StyleName="error" HorizontalAlignment="Right" />
+          <TextBox Width="150" Grid.Column="1" />
+          <Label Text="PASS:" StyleName="error" HorizontalAlignment="Right" Grid.Row="1" />
+          <TextBox PasswordField="True" Width="150" Grid.Column="1" Grid.Row="1" />
+        </Grid>
+        <Label Text="Progress" StyleName="optional" HorizontalAlignment="Center" />
+        <HorizontalProgressBar Value="75" Height="20" />
+        <Label Text="Slider" StyleName="optional" HorizontalAlignment="Center" />
+        <HorizontalSlider Value="32.113823" />
+      </VerticalStackPanel>
+    </Window>
+    <Window Title="WINDOW" Left="144" Top="83">
       <VerticalStackPanel Spacing="10">
         <Label Text="Press a button to continue..." StyleName="optional" />
         <HorizontalStackPanel Spacing="10" HorizontalAlignment="Center">
@@ -17,10 +35,12 @@
           <ToggleButton>
             <Label Text="TOGGLE" VerticalAlignment="Center" />
           </ToggleButton>
-          <Button>
-            <Image Renderable="music" />
+          <Button StyleName="nobg">
+            <Image Renderable="music-off" PressedRenderable="music" />
           </Button>
-          <Button StyleName="sound" />
+          <ToggleButton StyleName="nobg">
+            <Image Renderable="sound-off" PressedRenderable="sound" />
+          </ToggleButton>
         </HorizontalStackPanel>
         <HorizontalStackPanel>
           <CheckButton StackPanel.ProportionType="Part">
@@ -48,24 +68,6 @@
             <Label Text="Selection 3" />
           </RadioButton>
         </VerticalStackPanel>
-      </VerticalStackPanel>
-    </Window>
-    <Window StyleName="dialog" Left="228" Top="160">
-      <VerticalStackPanel Spacing="10">
-        <Label Text="**** WINDOW ****" />
-        <Label Text="LOGIN" StyleName="error" HorizontalAlignment="Center" />
-        <Grid ColumnSpacing="10" RowSpacing="10">
-          <Grid.DefaultColumnProportion Type="Auto" />
-          <Grid.DefaultRowProportion Type="Auto" />
-          <Label Text="USER:" StyleName="error" HorizontalAlignment="Right" />
-          <TextBox Width="150" Grid.Column="1" />
-          <Label Text="PASS:" StyleName="error" HorizontalAlignment="Right" Grid.Row="1" />
-          <TextBox PasswordField="True" Width="150" Grid.Column="1" Grid.Row="1" />
-        </Grid>
-        <Label Text="Progress" StyleName="optional" HorizontalAlignment="Center" />
-        <HorizontalProgressBar Value="75" Height="20" />
-        <Label Text="Slider" StyleName="optional" HorizontalAlignment="Center" />
-        <HorizontalSlider Value="32.113823" />
       </VerticalStackPanel>
     </Window>
   </Panel>

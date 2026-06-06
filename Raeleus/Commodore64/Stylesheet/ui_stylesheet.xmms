@@ -6,6 +6,7 @@
   <LabelStyles>
     <LabelStyle TextColor="White" Font="commodore-64" Id="optional" />
     <LabelStyle TextColor="#A5A5FFFF" PressedTextColor="White" Font="commodore-64" />
+    <LabelStyle TextColor="#A5A5FFFF" PressedTextColor="White" Font="commodore-64" Id="radio" />
     <LabelStyle TextColor="#666666FF" Font="commodore-64" Id="error" />
     <LabelStyle TextColor="#A5A5FFFF" Font="commodore-64" Id="title" />
   </LabelStyles>
@@ -15,8 +16,7 @@
   </TextBoxStyles>
   <ButtonStyles>
     <ButtonStyle Background="button" PressedBackground="button-down" Padding="14, 4" />
-    <ButtonStyle Id="music" Background="music-off" PressedBackground="music" />
-    <ButtonStyle Id="sound" Background="sound-off" PressedBackground="sound" />
+    <ButtonStyle Id="nobg" />
   </ButtonStyles>
   <CheckBoxStyles>
     <CheckButtonStyle ImageTextSpacing="10">
@@ -83,9 +83,6 @@
     </WindowStyle>
     <WindowStyle Id="dialog" Background="window" Padding="22, 0, 22, 30">
       <TitleStyle TextColor="#A5A5FFFF" Font="commodore-64" />
-    </WindowStyle>
-    <WindowStyle Id="dialog-modal" Background="dialog">
-      <TitleStyle TextColor="White" Font="commodore-64" />
     </WindowStyle>
   </WindowStyles>
 </Stylesheet>
