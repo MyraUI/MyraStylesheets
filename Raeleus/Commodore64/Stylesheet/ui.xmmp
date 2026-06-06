@@ -47,14 +47,14 @@
             <Label Text="Check Box" StyleName="radio" VerticalAlignment="Center" />
           </CheckButton>
           <ComboView DropdownMaximumHeight="60" StackPanel.ProportionType="Part">
-            <Label Text="Select Box" />
-            <Label Text="Item 1" />
-            <Label Text="Item 2" />
-            <Label Text="Item 3" />
-            <Label Text="Item 4" />
-            <Label Text="Item 5" />
-            <Label Text="Item 6" />
-            <Label Text="Item 7" />
+            <Label Text="Select Box" StyleName="radio" />
+            <Label Text="Item 1" StyleName="radio" />
+            <Label Text="Item 2" StyleName="radio" />
+            <Label Text="Item 3" StyleName="radio" />
+            <Label Text="Item 4" StyleName="radio" />
+            <Label Text="Item 5" StyleName="radio" />
+            <Label Text="Item 6" StyleName="radio" />
+            <Label Text="Item 7" StyleName="radio" />
           </ComboView>
         </HorizontalStackPanel>
         <VerticalStackPanel Spacing="10">
