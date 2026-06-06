@@ -10,7 +10,7 @@ Biological Attack UI can be used under the CC BY license.
 http://creativecommons.org/licenses/by/4.0/
 ```
 
-[Biological Attack](preview.png)
+![Biological Attack](preview.png)
 
 ### About
 
