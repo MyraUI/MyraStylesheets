@@ -5,7 +5,7 @@
   <DesktopStyle Background="blue" />
   <LabelStyles>
     <LabelStyle TextColor="White" Font="commodore-64" Id="optional" />
-    <LabelStyle TextColor="#A5A5FFFF" Font="commodore-64" />
+    <LabelStyle TextColor="#A5A5FFFF" PressedTextColor="White" Font="commodore-64" />
     <LabelStyle TextColor="#666666FF" Font="commodore-64" Id="error" />
     <LabelStyle TextColor="#A5A5FFFF" Font="commodore-64" Id="title" />
   </LabelStyles>
@@ -14,18 +14,18 @@
     <TextBoxStyle TextColor="#A5A5FFFF" Font="commodore-64" Cursor="cursor" Selection="white" Id="nobg" />
   </TextBoxStyles>
   <ButtonStyles>
-    <ButtonStyle PressedBackground="button-down" Background="button" Padding="14, 4" />
-    <ButtonStyle PressedBackground="music" Id="music" Background="music-off" />
-    <ButtonStyle PressedBackground="sound" Id="sound" Background="sound-off" />
+    <ButtonStyle Background="button" PressedBackground="button-down" Padding="14, 4" />
+    <ButtonStyle Id="music" Background="music-off" PressedBackground="music" />
+    <ButtonStyle Id="sound" Background="sound-off" PressedBackground="sound" />
   </ButtonStyles>
   <CheckBoxStyles>
     <CheckButtonStyle ImageTextSpacing="10">
-      <ImageStyle PressedImage="check-box" Image="check-box-off" />
+      <ImageStyle Image="check-box-off" PressedImage="check-box" />
     </CheckButtonStyle>
   </CheckBoxStyles>
   <RadioButtonStyles>
     <CheckButtonStyle ImageTextSpacing="8">
-      <ImageStyle PressedImage="radio-button" Image="radio-button-off" />
+      <ImageStyle Image="radio-button-off" PressedImage="radio-button" />
     </CheckButtonStyle>
   </RadioButtonStyles>
   <HorizontalSliderStyles>

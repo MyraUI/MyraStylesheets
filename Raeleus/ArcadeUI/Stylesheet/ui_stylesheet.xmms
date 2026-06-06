@@ -10,9 +10,9 @@
     <LabelStyle TextColor="Red" Font="title" Id="title" />
   </LabelStyles>
   <ButtonStyles>
-    <ButtonStyle PressedBackground="button-pressed" Background="button" />
-    <ButtonStyle PressedBackground="button-pressed|Red" Id="red" Background="button|Red" />
-    <ButtonStyle PressedBackground="button-pressed|Blue" Id="blue" Background="button|Blue" />
-    <ButtonStyle PressedBackground="button-pressed|Yellow" Id="yellow" Background="button|Yellow" />
+    <ButtonStyle Background="button" PressedBackground="button-pressed" />
+    <ButtonStyle Id="red" Background="button|Red" PressedBackground="button-pressed|Red" />
+    <ButtonStyle Id="blue" Background="button|Blue" PressedBackground="button-pressed|Blue" />
+    <ButtonStyle Id="yellow" Background="button|Yellow" PressedBackground="button-pressed|Yellow" />
   </ButtonStyles>
 </Stylesheet>
