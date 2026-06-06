@@ -10,7 +10,7 @@ Arcade UI can be used under the CC BY license.
 http://creativecommons.org/licenses/by/4.0/
 ```
 
-![Arcade](preview.png)
+[Arcade](preview.png)
 
 ### About
 
