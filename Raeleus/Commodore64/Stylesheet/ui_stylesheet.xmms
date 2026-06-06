@@ -2,6 +2,7 @@
   <Fonts>
     <Font Id="commodore-64" File="commodore-64.fnt" />
   </Fonts>
+  <DesktopStyle Background="blue" />
   <LabelStyles>
     <LabelStyle TextColor="White" Font="commodore-64" Id="optional" />
     <LabelStyle TextColor="#A5A5FFFF" Font="commodore-64" />
@@ -13,18 +14,17 @@
     <TextBoxStyle TextColor="#A5A5FFFF" Font="commodore-64" Cursor="cursor" Selection="white" Id="nobg" />
   </TextBoxStyles>
   <ButtonStyles>
-    <ButtonStyle PressedBackground="button-down" Background="button" />
+    <ButtonStyle PressedBackground="button-down" Background="button" Padding="14, 4" />
     <ButtonStyle PressedBackground="music" Id="music" Background="music-off" />
     <ButtonStyle PressedBackground="sound" Id="sound" Background="sound-off" />
-    <ButtonStyle PressedBackground="button-down" Id="toggle" Background="button" />
   </ButtonStyles>
   <CheckBoxStyles>
-    <CheckButtonStyle>
+    <CheckButtonStyle ImageTextSpacing="10">
       <ImageStyle PressedImage="check-box" Image="check-box-off" />
     </CheckButtonStyle>
   </CheckBoxStyles>
   <RadioButtonStyles>
-    <CheckButtonStyle>
+    <CheckButtonStyle ImageTextSpacing="8">
       <ImageStyle PressedImage="radio-button" Image="radio-button-off" />
     </CheckButtonStyle>
   </RadioButtonStyles>
@@ -49,7 +49,7 @@
     <ProgressBarStyle Filler="progress-bar-knob" Background="progress-bar" />
   </VerticalProgressBarStyles>
   <ComboBoxStyles>
-    <ComboBoxStyle Height="14" Background="list">
+    <ComboBoxStyle Background="list">
       <ListBoxStyle Background="white">
         <ListItemStyle PressedBackground="light-blue" />
       </ListBoxStyle>
@@ -78,10 +78,10 @@
     <ScrollViewerStyle HorizontalScrollBackground="scroll-bar" HorizontalScrollKnob="scroll-bar-horizontal-knob" VerticalScrollBackground="scroll-bar" VerticalScrollKnob="scroll-bar-vertical-knob" />
   </ScrollViewerStyles>
   <WindowStyles>
-    <WindowStyle Background="window">
+    <WindowStyle Background="dialog" Padding="14">
       <TitleStyle TextColor="#A5A5FFFF" Font="commodore-64" />
     </WindowStyle>
-    <WindowStyle Id="dialog" Background="dialog">
+    <WindowStyle Id="dialog" Background="window" Padding="22, 0, 22, 30">
       <TitleStyle TextColor="#A5A5FFFF" Font="commodore-64" />
     </WindowStyle>
     <WindowStyle Id="dialog-modal" Background="dialog">

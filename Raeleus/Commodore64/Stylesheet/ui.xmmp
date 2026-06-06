@@ -1,74 +1,72 @@
 <Project StylesheetPath="ui_stylesheet.xmms">
-  <HorizontalSplitPane>
-    <ScrollViewer ShowHorizontalScrollBar="False">
-      <Grid ColumnSpacing="8" RowSpacing="8" Id="_gridRight">
-        <Grid.DefaultRowProportion Type="Auto" />
-        <Grid.ColumnsProportions>
-          <Proportion Type="Auto" />
-          <Proportion Type="Fill" />
-        </Grid.ColumnsProportions>
-        <Label Text="Button:" />
-        <Button Id="_button" Grid.Column="1">
-          <HorizontalStackPanel>
-            <Image Renderable="music-off" Id="_image" />
-            <Label Text="Button" />
-          </HorizontalStackPanel>
-        </Button>
-        <Label Text="Text Button:" Id="_textButtonLabel" Grid.Row="1" />
-        <Button Id="_textButton" Grid.Column="1" Grid.Row="1">
-          <Label Text="Button 2" />
-        </Button>
-        <Label Text="Image Button:" Grid.Row="2" />
-        <Button Id="_imageButton" Grid.Column="1" Grid.Row="2">
-          <Image Renderable="sound-off" />
-        </Button>
-        <CheckButton Grid.Row="3" Grid.ColumnSpan="2">
-          <Label Text="This is checkbox" />
-        </CheckButton>
-        <Label Text="Horizontal Slider:" Grid.Row="4" />
-        <HorizontalSlider Grid.Column="1" Grid.Row="4" />
-        <Label Text="Combo View:" Grid.Row="5" />
-        <ComboView Width="200" Grid.Column="1" Grid.Row="5">
-          <Label Text="Red" TextColor="#FF0000FF" />
-          <Label Text="Green" TextColor="#00FF00FF" />
-          <Label Text="Blue" TextColor="#0000FFFF" />
-        </ComboView>
-        <Label Text="Text Field:" Grid.Row="6" />
-        <TextBox Grid.Column="1" Grid.Row="6" />
-        <Label Text="List View:" Grid.Row="7" />
-        <ListView Width="200" Grid.Column="1" Grid.Row="7">
-          <Label Text="Red" TextColor="#FF0000FF" />
-          <Label Text="Green" TextColor="#00FF00FF" />
-          <Label Text="Blue" TextColor="#0000FFFF" />
-        </ListView>
-        <Label Text="Tree" Grid.Row="8" />
-      </Grid>
-    </ScrollViewer>
-    <VerticalSplitPane>
-      <Grid RowSpacing="8">
-        <Grid.ColumnsProportions>
-          <Proportion Type="Fill" />
-        </Grid.ColumnsProportions>
-        <Grid.RowsProportions>
-          <Proportion Type="Auto" />
-          <Proportion Type="Fill" />
-        </Grid.RowsProportions>
-        <Label Text="Vertical Slider:" />
-        <VerticalSlider HorizontalAlignment="Center" Grid.Row="1" />
-      </Grid>
-      <Grid RowSpacing="8">
-        <Grid.ColumnsProportions>
-          <Proportion Type="Fill" />
-        </Grid.ColumnsProportions>
-        <Grid.RowsProportions>
-          <Proportion Type="Auto" />
-          <Proportion Type="Auto" />
-          <Proportion Type="Fill" />
-        </Grid.RowsProportions>
-        <Label Text="Progress Bars:" />
-        <HorizontalProgressBar Id="_horizontalProgressBar" Grid.Row="1" />
-        <VerticalProgressBar HorizontalAlignment="Center" Id="_verticalProgressBar" Grid.Row="2" />
-      </Grid>
-    </VerticalSplitPane>
-  </HorizontalSplitPane>
+  <Project.ExportOptions />
+  <Panel HorizontalAlignment="Center" VerticalAlignment="Center" Width="800" Height="600" Padding="22, 0" Background="window">
+    <VerticalStackPanel>
+      <Label Text="**** COMMODORE 64 BASIC V2 ****" HorizontalAlignment="Center" />
+      <Label Text="64K  RAM  SYSTEM  38911  BASIC  BYTES  FREE/n/n/n" HorizontalAlignment="Center" />
+      <Label Text="READY./nLOAD &quot;COMMODORE 64 UI&quot;/n/nPRESS PLAY ON TAPE/nLOADING.../nREADY." />
+      <TextBox Text="RUN" HorizontalAlignment="Left" StyleName="nobg" />
+    </VerticalStackPanel>
+    <Window Title="WINDOW" Left="132" Top="177">
+      <VerticalStackPanel Spacing="10">
+        <Label Text="Press a button to continue..." StyleName="optional" />
+        <HorizontalStackPanel Spacing="10" HorizontalAlignment="Center">
+          <Button>
+            <Label Text="DIALOG" VerticalAlignment="Center" />
+          </Button>
+          <ToggleButton>
+            <Label Text="TOGGLE" VerticalAlignment="Center" />
+          </ToggleButton>
+          <Button>
+            <Image Renderable="music" />
+          </Button>
+          <Button StyleName="sound" />
+        </HorizontalStackPanel>
+        <HorizontalStackPanel>
+          <CheckButton StackPanel.ProportionType="Part">
+            <Label Text="Check Box" VerticalAlignment="Center" />
+          </CheckButton>
+          <ComboView DropdownMaximumHeight="60" StackPanel.ProportionType="Part">
+            <Label Text="Select Box" />
+            <Label Text="Item 1" />
+            <Label Text="Item 2" />
+            <Label Text="Item 3" />
+            <Label Text="Item 4" />
+            <Label Text="Item 5" />
+            <Label Text="Item 6" />
+            <Label Text="Item 7" />
+          </ComboView>
+        </HorizontalStackPanel>
+        <VerticalStackPanel Spacing="10">
+          <RadioButton>
+            <Label Text="Selection 1" />
+          </RadioButton>
+          <RadioButton>
+            <Label Text="Selection 2" />
+          </RadioButton>
+          <RadioButton>
+            <Label Text="Selection 3" />
+          </RadioButton>
+        </VerticalStackPanel>
+      </VerticalStackPanel>
+    </Window>
+    <Window StyleName="dialog" Left="228" Top="160">
+      <VerticalStackPanel Spacing="10">
+        <Label Text="**** WINDOW ****" />
+        <Label Text="LOGIN" StyleName="error" HorizontalAlignment="Center" />
+        <Grid ColumnSpacing="10" RowSpacing="10">
+          <Grid.DefaultColumnProportion Type="Auto" />
+          <Grid.DefaultRowProportion Type="Auto" />
+          <Label Text="USER:" StyleName="error" HorizontalAlignment="Right" />
+          <TextBox Width="150" Grid.Column="1" />
+          <Label Text="PASS:" StyleName="error" HorizontalAlignment="Right" Grid.Row="1" />
+          <TextBox PasswordField="True" Width="150" Grid.Column="1" Grid.Row="1" />
+        </Grid>
+        <Label Text="Progress" StyleName="optional" HorizontalAlignment="Center" />
+        <HorizontalProgressBar Value="75" Height="20" />
+        <Label Text="Slider" StyleName="optional" HorizontalAlignment="Center" />
+        <HorizontalSlider Value="32.113823" />
+      </VerticalStackPanel>
+    </Window>
+  </Panel>
 </Project>
