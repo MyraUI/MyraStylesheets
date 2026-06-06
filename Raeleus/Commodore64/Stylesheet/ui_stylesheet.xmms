@@ -1,0 +1,91 @@
+<Stylesheet TextureRegionAtlas="ui_stylesheet.xmat">
+  <Fonts>
+    <Font Id="commodore-64" File="commodore-64.fnt" />
+  </Fonts>
+  <LabelStyles>
+    <LabelStyle TextColor="White" Font="commodore-64" Id="optional" />
+    <LabelStyle TextColor="#A5A5FFFF" Font="commodore-64" />
+    <LabelStyle TextColor="#666666FF" Font="commodore-64" Id="error" />
+    <LabelStyle TextColor="#A5A5FFFF" Font="commodore-64" Id="title" />
+  </LabelStyles>
+  <TextBoxStyles>
+    <TextBoxStyle TextColor="Black" Font="commodore-64" Cursor="cursor-black" Selection="light-blue" Background="white" />
+    <TextBoxStyle TextColor="#A5A5FFFF" Font="commodore-64" Cursor="cursor" Selection="white" Id="nobg" />
+  </TextBoxStyles>
+  <ButtonStyles>
+    <ButtonStyle PressedBackground="button-down" Background="button" />
+    <ButtonStyle PressedBackground="music" Id="music" Background="music-off" />
+    <ButtonStyle PressedBackground="sound" Id="sound" Background="sound-off" />
+    <ButtonStyle PressedBackground="button-down" Id="toggle" Background="button" />
+  </ButtonStyles>
+  <CheckBoxStyles>
+    <CheckButtonStyle>
+      <ImageStyle PressedImage="check-box" Image="check-box-off" />
+    </CheckButtonStyle>
+  </CheckBoxStyles>
+  <RadioButtonStyles>
+    <CheckButtonStyle>
+      <ImageStyle PressedImage="radio-button" Image="radio-button-off" />
+    </CheckButtonStyle>
+  </RadioButtonStyles>
+  <HorizontalSliderStyles>
+    <SliderStyle Background="slider">
+      <KnobStyle>
+        <ImageStyle Image="slider-knob" />
+      </KnobStyle>
+    </SliderStyle>
+  </HorizontalSliderStyles>
+  <VerticalSliderStyles>
+    <SliderStyle Background="slider">
+      <KnobStyle>
+        <ImageStyle Image="slider-knob" />
+      </KnobStyle>
+    </SliderStyle>
+  </VerticalSliderStyles>
+  <HorizontalProgressBarStyles>
+    <ProgressBarStyle Filler="progress-bar-knob" Background="progress-bar" />
+  </HorizontalProgressBarStyles>
+  <VerticalProgressBarStyles>
+    <ProgressBarStyle Filler="progress-bar-knob" Background="progress-bar" />
+  </VerticalProgressBarStyles>
+  <ComboBoxStyles>
+    <ComboBoxStyle Height="14" Background="list">
+      <ListBoxStyle Background="white">
+        <ListItemStyle PressedBackground="light-blue" />
+      </ListBoxStyle>
+      <LabelStyle TextColor="#A5A5FFFF" Font="commodore-64" />
+    </ComboBoxStyle>
+  </ComboBoxStyles>
+  <ListBoxStyles>
+    <ListBoxStyle>
+      <ListItemStyle PressedBackground="white" />
+    </ListBoxStyle>
+    <ListBoxStyle Id="dimmed" Background="white">
+      <ListItemStyle PressedBackground="light-blue" />
+    </ListBoxStyle>
+  </ListBoxStyles>
+  <HorizontalSplitPaneStyles>
+    <SplitPaneStyle>
+      <HandleStyle Background="horizontal-split-pane" />
+    </SplitPaneStyle>
+  </HorizontalSplitPaneStyles>
+  <VerticalSplitPaneStyles>
+    <SplitPaneStyle>
+      <HandleStyle Background="vertical-split-pane" />
+    </SplitPaneStyle>
+  </VerticalSplitPaneStyles>
+  <ScrollViewerStyles>
+    <ScrollViewerStyle HorizontalScrollBackground="scroll-bar" HorizontalScrollKnob="scroll-bar-horizontal-knob" VerticalScrollBackground="scroll-bar" VerticalScrollKnob="scroll-bar-vertical-knob" />
+  </ScrollViewerStyles>
+  <WindowStyles>
+    <WindowStyle Background="window">
+      <TitleStyle TextColor="#A5A5FFFF" Font="commodore-64" />
+    </WindowStyle>
+    <WindowStyle Id="dialog" Background="dialog">
+      <TitleStyle TextColor="#A5A5FFFF" Font="commodore-64" />
+    </WindowStyle>
+    <WindowStyle Id="dialog-modal" Background="dialog">
+      <TitleStyle TextColor="White" Font="commodore-64" />
+    </WindowStyle>
+  </WindowStyles>
+</Stylesheet>
